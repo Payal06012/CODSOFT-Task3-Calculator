@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet " href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+  
+    <div  class ="Calculator">
+        <h1>CALCULATOR</h1>
+        <input type ="text" id="screen" placeholder ="0"
+        readonly/>
+     
+
+
+        <div>
+            <button class = "btn " >  7 </button>
+            <button class = "btn " >  8 </button>
+            <button class = "btn " >  9 </button>
+            <button class = "btn2"  onclick = "allClear()">  AC </button>
+            <button class = "btn2" onclick ="delLastChar()" >  DEL</button>      
+            
+           
+            
+            
+        </div>
+        <div>
+            <button class = "btn " >  4 </button>
+            <button class = "btn " >  5 </button>
+            <button class = "btn " >  6 </button>
+            <button class = "op1" >  * </button>
+            <button class = "op" >  / </butTON>
+            
+        </div>
+
+        <div>
+            <button class = "btn " >  1 </button>
+            <button class = "btn " >  2 </button>
+            <button class = "btn " >  3 </button>
+            <button class = " op" >  + </button>
+            <button class = " op" >  - </button>
+            
+        </div>
+
+        <div> 
+            <button class = "btn op2" >  . </button>
+            <button class = "btn " >  0 </button>
+            <button class = "btn " > 00 </button>
+            <button class = "btn3"  onclick="calculate()"> = </button>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
